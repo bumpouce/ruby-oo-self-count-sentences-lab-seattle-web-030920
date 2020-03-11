@@ -1,6 +1,8 @@
 require 'pry'
 
 class String
+  
+  attr_reader :string
 
   def sentence?
     self.string.end_with?(".")
