@@ -5,6 +5,8 @@ class String
   attr_reader :input
   
   def initialize (input)
+    @input = input
+  end
 
   def sentence?
     self.input.end_with?(".")
