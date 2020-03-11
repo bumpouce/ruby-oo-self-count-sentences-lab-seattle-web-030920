@@ -9,7 +9,7 @@ class String
   end
 
   def sentence?
-    self.input.end_with?(".")
+    self.end_with?(".")
   end
 
   def question?
