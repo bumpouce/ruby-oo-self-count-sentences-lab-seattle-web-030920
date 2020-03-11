@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split(/\. | \? | \!/).count
+    test = self.split(/\. | \? | \!/)
+    test.each {|sentence| puts sentence}
   end
 end
