@@ -2,10 +2,12 @@ require 'pry'
 
 class String
   
-  attr_reader :string
+  attr_reader :input
+  
+  def initialize (input)
 
   def sentence?
-    self.string.end_with?(".")
+    self.input.end_with?(".")
   end
 
   def question?
